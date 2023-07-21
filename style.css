@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+body {
+  font-family: "San Francisco";
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+/* MARK: Navigation */
+#navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 50px 0px 50px;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+#logo {
+  height: min-content;
+  margin-top: 0;
+  color: #1D2E28;
+}
+
+.navigation {
+  display: flex;
+  width: 210px;
+}
+
+.navigation>a {
+  text-decoration: none;
+  color: #08A045;
+  padding: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+.navigation>a:hover {
+  color: #1D2E28;
+}
+
+/* MARK: Header */
+
+#header {
+  position: relative;
+  width: 100vw;
+  max-height: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#header img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+#header h1 {
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  color: white;
+  font-size: 30pt;
+}
+
+/* MARK: Call to action */
+
+#cta-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#cta-container button {
+  height: 50px;
+  width: 100%;
+  border: 0px;
+  text-align: left;
+  padding-left: 50px;
+  color: white;
+  font-size: medium;
+}
+
+#cta-container button:hover {
+  cursor: pointer;
+}
+
+.cta-button-primary {
+  background-color: #0B6E4F;
+}
+
+.cta-button-secondary {
+  background-color: #6BBF59;
+}
+
+/* MARK: Our Product */
+
+#main-title h1 {
+  width: 35%;
+  padding-left: 50px;
+  font-size: 35px;
+}
+
+#our-product-segmented {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  gap: 20px;
+  border-bottom: 2px solid rgb(223, 223, 223);
+}
+
+#our-product-segmented button {
+  width: 90px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+  background-color: white;
+  color: #1D2E28;
+  font-size: medium;
+}
+
+#our-product-segmented button.selected {
+  background-color: #0B6E4F;
+  color: white;
+}
+
+#our-product-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-row {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  height: fit-content; 
+  border-bottom: 1px solid #DDD;
+  font-size: medium;
+}
+
+#contact-us {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.form-container {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.form-container form {
+  max-width: 400px;
+}
+
+.form-container h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.form-container button {
+  background-color: #073B3A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-container button:hover {
+  background-color:  #1D2E28;
+}
+
+.form-container .error-label {
+  color: red;
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+/* MARK: Footer */
+footer {
+  display: flex;
+}
+
+.footerLeft {
+  flex: 2;
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+}
+
+.fMenuTitle {
+  font-size: 14px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.fIcons{
+  display: flex;
+}
+
+.fIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright{
+  font-weight: 300;
+  font-size: 14px;
+}

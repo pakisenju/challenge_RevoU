@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ride Hailing</title>
+</head>
+
+<body>
+    <header>
+        <section id="navigation-bar">
+            <h3 id="logo">Ride-Hailing</h3>
+            <nav class="navigation">
+                <a href="#our-product-segmented">Our Product</a>
+                <a href="#contact-us">Contact Us</a>
+            </nav>
+        </section>
+        <section id="header">
+            <h1>Best Ride Hailing for you</h1>
+            <img src="header.jpg" alt="">
+        </section>
+    </header>
+    <!-- MAIN SECTION -->
+    <main>
+        <section id="main-title">
+            <h1>Revolutionizing Ride-Hailing: Where Perfection Meets Convenience</h1>
+        </section>
+        <section id="cta-container">
+            <button class="cta-button-primary">Download our app</button>
+            <button class="cta-button-secondary">About Us</button>
+        </section>
+        <section id="our-product-segmented">
+            <button>Car</button>
+            <button>Bike</button>
+            <button>Delivery</button>
+            <button>Food</button>
+        </section>
+        <section id="our-product-content"></section>
+        <section id="contact-us">
+            <div class="image-container">
+                <img src="contact-us.jpg" alt="Image">
+            </div>
+            <div class="form-container">
+                <form>
+                    <h2>Contact Form</h2>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <div id="nameError" class="error-label"></div>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <div id="emailError" class="error-label"></div>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                    <div id="phoneError" class="error-label"></div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Anonymous. All rights reserved. 2023.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
